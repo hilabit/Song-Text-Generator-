@@ -1,0 +1,60 @@
+html, .App, #root {
+  height: 100%;
+}
+
+.App {
+  display: flex;
+  flex-direction: column;
+}
+
+
+body {
+  height: 100%;
+  margin: 0;
+  font-family: Ubuntu;
+}
+
+#header {
+  height: 30px;
+  display: flex;
+  align-items: center;
+}
+
+#headerContent {
+  width: 100%;
+  text-align: center;
+}
+
+#page {
+  display: flex;
+  flex:1;
+  overflow: hidden;
+}
+
+#sideBar {
+  width: 10%;
+  padding: 20px;
+  background-color: lightgrey;
+  max-height: 100%;
+  overflow: scroll;
+}
+
+.item {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+  height: 70px;
+}
+
+#content {
+  width: 100%;
+  padding:20px;
+  overflow: scroll;
+}
+
+button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  color: red;
+}
